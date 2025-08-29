@@ -1,0 +1,17 @@
+# Sensitive files - don't commit these
+**/id_rsa
+**/id_ed25519
+**/*.key
+**/*.pem
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+*.bak
+*.backup
+*~
