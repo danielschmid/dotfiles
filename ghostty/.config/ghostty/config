@@ -1,0 +1,15 @@
+keybind = ctrl+z=close_surface
+keybind = ctrl+d=new_split:right
+
+font-family = JetBrains Mono
+font-size = 16
+
+theme= Github-Dark-Default
+
+window-padding-y = 16
+window-padding-x = 16
+
+window-decoration = true
+macos-titlebar-proxy-icon = hidden
+
+macos-icon = official
