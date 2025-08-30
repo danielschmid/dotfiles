@@ -5,6 +5,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 
 # === Development Tools ===
+# brew "node"           # Managed by nvm (see setup.sh)
 brew "git"
 brew "stow"
 brew "curl"
@@ -14,10 +15,15 @@ brew "wget"
 brew "zsh"
 cask "ghostty"
 
+# Plugins
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+# === AI Development Tools ===
+brew "claude-code"      # Anthropic's AI coding assistant CLI
+
 # === Programming Languages ===
 # Uncomment what you need
-# brew "node"
-# brew "python@3.11"
 # brew "go"
 # brew "rust"
 
@@ -29,8 +35,7 @@ cask "ghostty"
 
 # === Essential GUI Apps ===
 # cask "google-chrome"
-# cask "firefox"
-# cask "1password"
+# cask "zen"
 # cask "docker"
 # cask "spotify"
 

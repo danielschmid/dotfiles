@@ -1,0 +1,5 @@
+pnpm
+tsx                   # For running .ts files quickly
+nodemon               # Development workflow
+http-server           # Quick static serving
+pm2                   # Production process management

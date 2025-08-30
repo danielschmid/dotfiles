@@ -1,0 +1,10 @@
+# Claude Code configuration
+
+# Default editor for code review
+editor = "code"
+
+# Default model (claude-sonnet-4-20250514 is recommended)
+model = "claude-sonnet-4-20250514"
+
+# Project templates directory (optional)
+# templates_dir = "~/.config/claude-code/templates"
