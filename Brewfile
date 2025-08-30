@@ -17,7 +17,9 @@ cask "ghostty"
 
 # === CLI Utilities ===
 brew "zoxide"           # Smart directory jumping
-brew "fzf"
+brew "fzf"              # Fuzzy finder (works great with zoxide)
+brew "ripgrep"          # Fast grep alternative (rg)
+brew "fd"               # Fast find alternative
 
 # Plugins
 brew "zsh-autosuggestions"

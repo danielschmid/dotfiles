@@ -3,6 +3,7 @@ keybind = ctrl+d=new_split:right
 
 font-family = JetBrains Mono
 font-size = 16
+adjust-cell-height = 30%
 
 theme= Github-Dark-Default
 
