@@ -15,6 +15,10 @@ brew "wget"
 brew "zsh"
 cask "ghostty"
 
+# === CLI Utilities ===
+brew "zoxide"           # Smart directory jumping
+brew "fzf"
+
 # Plugins
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
